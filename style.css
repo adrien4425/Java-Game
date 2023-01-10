@@ -1,3 +1,20 @@
 body{
-    background: linear-gradient(rgb(150, 160, 0),rgb(0, 133, 160));
+    background: linear-gradient(to bottom right,#A200D6,#D60014);
+    height: 100vh;
+}
+
+main{
+    width: 95%;
+    height: 95%;
+    margin: 2.5%;
+    background-color: white;
+    column-count: 2;
+}
+
+#pl1{
+    text-align: center;
+}
+
+#pl2{
+    text-align: center;
 }
