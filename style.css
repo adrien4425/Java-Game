@@ -8,13 +8,24 @@ main{
     height: 95%;
     margin: 2.5%;
     background-color: white;
-    column-count: 2;
+    display: felx;
+    align-items: center;
 }
 
-#pl1{
+.pl1{
+
     text-align: center;
+    background-color: rgb(213, 24, 24);
 }
 
-#pl2{
+.pl2{
+
     text-align: center;
+    background-color: rgb(100, 201, 245);
+}
+
+.gamecontrol{
+
+    text-align: center;
+    background-color: rgb(134, 213, 24);
 }
