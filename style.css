@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
 body{
     background: linear-gradient(to bottom right,#A200D6,#D60014);
     height: 100vh;
+    font-family: 'Lato', sans-serif;
 }
 
 main{
@@ -8,24 +11,88 @@ main{
     height: 95%;
     margin: 2.5%;
     background-color: white;
-    display: felx;
-    align-items: center;
+}
+
+.gamescreen{
+    display: flex;
 }
 
 .pl1{
-
+    width: 50%;
+    height: 95vh;
     text-align: center;
-    background-color: rgb(213, 24, 24);
-}
-
-.pl2{
-
-    text-align: center;
-    background-color: rgb(100, 201, 245);
+    background-color: rgb(212, 212, 212);
 }
 
 .gamecontrol{
-
+    position: absolute;
+    left: 35%;
+    width: 30%;
+    height: 95vh;
     text-align: center;
-    background-color: rgb(134, 213, 24);
+}
+
+.pl2{
+    width: 50%;
+    height: 95vh;
+    text-align: center;
+}
+
+.topbox{
+    position: sticky;
+    width: 50%;
+    margin-top: 15vh;
+    margin-left: 25%;
+}
+
+.bottombox{
+    position: sticky;
+    width: 30%;
+    margin-top: 25vh;
+    margin-left: 35%;
+    background-color: #D60014;
+    border-radius: 5px;
+}
+
+#newgame{
+    position: sticky;
+    margin-top: 10vh;
+}
+
+.dice{
+    position: sticky;
+    margin-top: 20vh;  
+}
+
+#rolldice{
+    position: sticky;
+    margin-top: 10vh;
+}
+
+#hold{
+    position: sticky;
+    margin-top: 5vh;
+}
+
+button {
+    background-color: rgba(0, 0, 255, 0);
+    border: 0px rgba(0, 0, 255, 0);
+}
+
+h2{
+    font-size: 25px;
+}
+
+#pl1score, #pl2score{
+    font-size: 60px;
+    color: #ff152c;
+}
+
+#pl1current, #pl2current{
+    color: white;
+    font-size: 25px;
+}
+
+.pl1 > .topbox > h2{
+    color: #D60014;
 }

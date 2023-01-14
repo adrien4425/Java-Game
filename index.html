@@ -15,42 +15,37 @@
 </head>
 
 <body>
-  <header>
-
-  </header>
   <main>
-    <div class="gamecontrol">
-      <button id="newgame">New Game</button>
-      <div class="dice"><img id="diceee" src="images/dice3.png" height="10%"</div>
-      <button id="rolldice">Roll Dice</button>
-      <button id="hold">Hold</button>
-    </div>
-    <div class="pl1">
-      <div class="topbox">
-        <h2>Player 1</h2>
-        <span id="pl1score">0</sapn>
+    <div class="gamescreen">
+      <div class="pl1">
+        <div class="topbox">
+          <h2>Player 1</h2>
+          <span id="pl1score">0</sapn>
+        </div>
+        <div class="bottombox">
+          <p>current</p>
+          <span id="pl1current">0</span>
+        </div>
       </div>
-      <div class="bottombox">
-        <p>current</p>
-        <span id="pl1current">0</span>
+      <div class="gamecontrol">
+        <button id="newgame"><img src="images/newgame.png" height="20px">New Game</button>
+        <div class="dice"><img id="diceee" src="images/dice3.png" height="10%"></div>
+        <button id="rolldice"><img src="images/roll.png" height="20px"> Roll Dice</button><br>
+        <button id="hold"><img src="images/hold.png" height="20px">Hold</button>
       </div>
-    
-    </div>
-    <div class="pl2">
-      <div class="topbox">
-        <h2>Player 2</h2>
-        <span id="pl2score">0</span>
+      <div class="pl2">
+        <div class="topbox">
+          <h2>Player 2</h2>
+          <span id="pl2score">0</span>
+        </div>
+        <div class="bottombox">
+          <p>current</p>
+          <span id="pl2current">0</span>
+        </div>
       </div>
-      <div class="bottombox">
-        <p>current</p>
-        <span id="pl2current">0</span>
-      </div>
-    
     </div>
   </main>
-  <footer>
-    <!-- place footer here -->
-  </footer>
+
   <!-- Bootstrap JavaScript Libraries -->
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
     integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
